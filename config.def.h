@@ -3,11 +3,11 @@
 #include <X11/XF86keysym.h>
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
-static const Gap default_gap        = {.isgap = 1, .realgap = 10, .gappx = 10};
+static const Gap default_gap        = {.isgap = 1, .realgap = 5, .gappx = 5};
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrains Mono:size=14" };
+static const char *fonts[]          = { "JetBrains Mono:size=12" };
 static const char dmenufont[]       = "JetBrains Mono:size=12";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
