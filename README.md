@@ -46,11 +46,11 @@ echo `exec dwm` >> ~/.xinitrc
 
 #### Pathes
 
-![dwm-alpha-20201019-61bb8b2.diff](https://dwm.suckless.org/patches/alpha/)
-![dwm-autostart-20161205-bb3bd6f.diff](https://dwm.suckless.org/patches/autostart/)
-![dwm-fancybar-20220527-d3f93c7.diff](https://dwm.suckless.org/patches/fancybar/)
-![dwm-fullgaps-toggle-20200830.diff](https://dwm.suckless.org/patches/fullgaps/)
-![dwm-gaplessgrid-20160731-56a31dc.diff](https://dwm.suckless.org/patches/gaplessgrid/)
-![dwm-pertag-6.2.diff](https://dwm.suckless.org/patches/pertag/)
-![dwm-restartsig-20180523-6.2.diff](https://dwm.suckless.org/patches/restartsig/)
-![dwm-scratchpad-6.2.diff](https://dwm.suckless.org/patches/scratchpads/)
+[dwm-alpha-20201019-61bb8b2.diff](https://dwm.suckless.org/patches/alpha/)
+[dwm-autostart-20161205-bb3bd6f.diff](https://dwm.suckless.org/patches/autostart/)
+[dwm-fancybar-20220527-d3f93c7.diff](https://dwm.suckless.org/patches/fancybar/)
+[dwm-fullgaps-toggle-20200830.diff](https://dwm.suckless.org/patches/fullgaps/)
+[dwm-gaplessgrid-20160731-56a31dc.diff](https://dwm.suckless.org/patches/gaplessgrid/)
+[dwm-pertag-6.2.diff](https://dwm.suckless.org/patches/pertag/)
+[dwm-restartsig-20180523-6.2.diff](https://dwm.suckless.org/patches/restartsig/)
+[dwm-scratchpad-6.2.diff](https://dwm.suckless.org/patches/scratchpads/)
