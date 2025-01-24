@@ -101,14 +101,23 @@ static Key keys[] = {
     {MODKEY, XK_f, setlayout, {.v = &layouts[1]}},
     {MODKEY, XK_m, setlayout, {.v = &layouts[2]}},
     {MODKEY, XK_g, setlayout, {.v = &layouts[3]}},
+    // switch to the next or previous layout configuration
     {ControlMask, XK_space, setlayout, {0}},
     {MODKEY | ShiftMask, XK_space, togglefloating, {0}},
     {MODKEY, XK_0, view, {.ui = ~0}},
     {MODKEY | ShiftMask, XK_0, tag, {.ui = ~0}},
+
+    // begin to setup the key about multiple monitor 
+    // [Mod + <] to focus the previous monitor
     {MODKEY, XK_comma, focusmon, {.i = -1}},
+    // [Mod + >] to focus the next monitor
     {MODKEY, XK_period, focusmon, {.i = +1}},
+    // [Mod + Shift + <] move the window to the previous monitor
     {MODKEY | ShiftMask, XK_comma, tagmon, {.i = -1}},
+    // [Mod + Shift + >] move the window to the next monitor
     {MODKEY | ShiftMask, XK_period, tagmon, {.i = +1}},
+    // end setup the key about multiple monitor
+
     {MODKEY, XK_minus, setgaps, {.i = -5}},
     {MODKEY, XK_equal, setgaps, {.i = +5}},
     {MODKEY | ShiftMask, XK_minus, setgaps, {.i = GAP_RESET}},
